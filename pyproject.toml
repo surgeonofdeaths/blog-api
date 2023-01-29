@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "blog-api"
+version = "0.1.0"
+description = ""
+authors = ["Artem Holodyr <artemmholodyr@gmail.com>"]
+readme = "README.md"
+packages = [{include = "blog_api"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+django = "^4.1.5"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

@@ -9,6 +9,8 @@ packages = [{include = "blog_api"}]
 [tool.poetry.dependencies]
 python = "^3.10"
 django = "^4.1.5"
+djangorestframework = "^3.14.0"
+django-cors-headers = "^3.13.0"
 
 
 [build-system]
